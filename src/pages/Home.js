@@ -3,7 +3,7 @@ import axios from 'axios';
 import MovieCard from '../components/MovieCard';
 import './Home.css';
 
-const API_URL = 'https://api.themoviedb.org/3/movie/popular?api_key=37317224df9d2274a01c570a6d12c17b'; // Убедитесь, что ключ API правильный
+const API_URL = 'https://api.themoviedb.org/3/movie/popular?api_key=37317224df9d2274a01c570a6d12c17b';
 
 function Home() {
   const [movies, setMovies] = useState([]);
