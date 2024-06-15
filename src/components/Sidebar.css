@@ -1,0 +1,52 @@
+.sidebar {
+    width: 200px;
+    padding: 30px;
+    background-color: #111; /* Черный фон */
+    color: #fff; /* Белый текст */
+    position: sticky;
+    top: 10%;
+    left: 25%;
+    height: 80%; /* Полная высота окна */
+    overflow-y: auto;
+  }
+  
+  .sidebar h2 {
+    color: #ff0000; /* Красный текст */
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .watchlist-button {
+    background-color: #ff0000; /* Красная кнопка */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .genres {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки */
+    gap: 10px; /* Интервал между жанрами */
+  }
+  
+  .genre-link {
+    color: #00cccc; /* Бирюзовый текст */
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #00cccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .genre-link:hover {
+    background-color: #00cccc;
+    color: #111; /* Черный текст при наведении */
+  }
+  
