@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { json } from 'react-router-dom';
-import './Register.css'; // Не забудьте добавить стили
+import './Register.css'; 
 
 function Register() {
     const [name, setName] = useState('');

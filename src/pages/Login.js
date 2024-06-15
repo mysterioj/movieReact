@@ -13,7 +13,7 @@ function Login() {
     const user = existingUsers.find(user => user.email === email && user.password === password);
 
     if (user) {
-      // Сохранить информацию о входе пользователя
+      // Сохранить информацию о входе
       localStorage.setItem('currentUser', JSON.stringify(user));
 
       // Очистить поля формы

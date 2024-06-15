@@ -1,24 +1,24 @@
 .movie-card {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-  padding: 15px;
-  text-align: center;
   width: 200px;
   margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.movie-poster {
+.movie-card img {
   width: 100%;
-  border-radius: 5px;
+  height: auto;
 }
 
-.movie-card h3 {
-  margin: 10px 0;
+.movie-card-info {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
 }
 
-.movie-card a {
-  text-decoration: none;
-  color: #1e90ff;
+.movie-card-info h3 {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
 }
